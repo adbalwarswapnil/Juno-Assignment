@@ -1,0 +1,196 @@
+.side-nav {
+    position: fixed;
+    width: 258px;
+    height: 812px;
+    padding: 48px 32px 32px 32px;
+    border: 0px 1px 0px 0px;
+    justify-content: space-between;
+    border-right: 1px solid #E4E4E4;
+    background: linear-gradient(0deg, #E4E4E4, #E4E4E4) linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+}
+
+.menu {
+    display: grid;
+    width: 194px;
+    height: 405.6px;
+    gap: 48px;
+
+}
+
+.image {
+    width: 194px;
+    height: 77.6px;
+
+}
+
+.main-menu {
+    display: grid;
+    width: 194px;
+    height: 280px;
+    gap: 8px
+
+}
+
+.overview{
+    display: flex;
+    width: 194px;
+    height: 40px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 7px;
+    gap: 12px;
+    font-family: Lettera Text LL;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #777676;
+
+
+}
+
+.Onboarding{
+    display: flex;
+    width: 194px;
+    height: 40px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 7px;
+    gap: 12px;
+    font-family: Lettera Text LL;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #777676;
+
+}
+
+.Monitoring{
+    display: flex;
+    width: 194px;
+    height: 40px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 7px;
+    gap: 12px;
+    background: #4643EE1A;
+    color: #4643EE;
+    font-family: Lettera Text LL;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Flagging{
+    display: flex;
+    width: 194px;
+    height: 40px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 7px;
+    gap: 12px;
+    font-family: Lettera Text LL;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #777676;
+
+
+
+}
+
+.Source-of-Income{
+    display: flex;
+    width: 194px;
+    height: 40px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 7px;
+    gap: 12px;
+    font-family: Lettera Text LL;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #777676;
+
+}
+
+.UAR{
+    display: flex;
+    width: 194px;
+    height: 40px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 7px;
+    gap: 12px;
+    font-family: Lettera Text LL;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;   
+    color: #777676;
+}
+
+.profile{
+    display: grid;
+    position: fixed;
+    width: 204px;
+    height: 38px;
+    gap: 80px;
+    bottom: 32px;
+
+}
+
+.avatar-text{
+    display: flex;
+    width: 166px;
+    height: 38px;
+    gap: 8px;
+
+}
+
+.profile-img{
+    width: 38px;
+    height: 38px;   
+    border: 1.58px solid #FFFFFF;
+
+}
+
+.avatar-name{
+    width: 120px;
+    height: 38px;
+    gap: 2px;
+
+}
+
+.name{
+    width: 69px;
+    height: 18px;
+    font-family: Lettera Text LL;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #050505;
+
+}
+
+.email{
+    width: 120px;
+    height: 18px;
+    font-family: Lettera Text LL;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #777676;
+
+
+}

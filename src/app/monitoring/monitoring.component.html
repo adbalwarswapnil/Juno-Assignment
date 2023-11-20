@@ -1,0 +1,70 @@
+<div class="heading">
+    Monitoring
+</div>
+<div class="sectional-bar">
+    <div class="pending">
+        Pending
+        <hr class="hr-r">
+    </div>
+    <div class="completed">
+        Completed
+    </div>
+</div>
+
+<button class="close-account">
+    Close account
+</button>
+
+<select name="cars" id="cars" class="risk-level">
+<option value="volvo">Risk level</option>
+<option value="saab">Saab</option>
+<option value="mercedes">Mercedes</option>
+<option value="audi">Audi</option>
+</select>   
+
+<select name="cars" id="cars" class="trigger-reason">
+    <option value="volvo">Trigger reason</option>
+    <option value="saab">Saab</option>
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+</select>  
+
+<input type="search" id="gsearch" name="gsearch" class="search" placeholder="Search">
+
+    <table class="data-table">
+        <thead>
+            <tr style="display:flex;">
+                <th class="h1">User</th>
+                <th class="h2">Risk level</th>
+                <th class="h3">Trigger reason</th>
+                <th class="h4">In queue for</th>
+                <th class="h5">Date added on</th>
+                <th class="h6">Previously reviewed</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="display:flex;" *ngFor="let data of monitoringData">
+                <td class="c1">
+                    <div>
+                        <div class="cell-name">{{data.userName}}</div>
+                        <div class="cell-email">{{data.userEmail}}</div>
+                    </div>
+                    <div>
+
+                    </div>
+                </td>
+                <td class="c2">{{data.riskLevel}}</td>
+                <td class="c3">{{data.actionReason}}</td>
+                <td class="c4">{{data.timeToClose}}</td>
+                <td class="c5">{{data.date}}</td>
+                <td class="c6">
+                    <div>
+                        <div class="action-cell-name">{{data.actionName}}</div>
+                        <div class="action-cell-email">{{data.actionEmail}}</div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
